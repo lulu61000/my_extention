@@ -1,0 +1,14 @@
+{
+  "name": "Price tracker Extensions",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "ptracker.html",
+    "default_icon": "price_wishlist.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ]
+}
