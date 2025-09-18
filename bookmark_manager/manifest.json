@@ -9,6 +9,17 @@
   },
   "permissions": [
     "storage",
-    "tabs"
-  ]
+    "tabs",
+    "bookmarks",
+    "history"
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "Open the Bookmark Manager"
+    }
+  }
 }
